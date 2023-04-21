@@ -1,1 +1,225 @@
+<!DOCTYPE html>
+<html>
 
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/d1c2ea8b80.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/21ad883e5c.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="bg-container p-3">
+        <div class="profile-section m-2">
+            <div class="container">
+                <div class="row">
+                    <div class="col-2 d-flex flex-column justify-content-center">
+                        <i class="fa-regular fa-user icons"></i>
+                        <p class="icon-name ml-2">PROFILE</p>
+                    </div>
+                    <div class="col-5 profile1">
+                        <h1 class="profile-head">CAROLINE THOMPSON</h1>
+                        <p class="profile-para">ART DIRECTOR</p>
+                    </div>
+                    <div class="col-5 profile2">
+                        <p class="section">Advertising camapigns are my forte.I have been in the industry for 6 yeras.</p>
+                        <p class="section">
+                            Address: Los Angeles, California<br>
+                            Phone: (+87) 8342 2934 2344<br>
+                            Website: carolinethomspson.com</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="work-section m-2">
+            <div class="container">
+                <div class="row">
+                    <div class="col-2 d-flex flex-column justify-content-center">
+                        <i class="fa-light fa-briefcase icons"></i>
+                        <p class="icon-name ml-3">WORK</p>
+                    </div>
+                    <div class="col-10 d-flex flex-column">
+                        <div class="d-flex flex-row justify-content-around">
+                            <p class="section">2022-2023</p>
+                            <div>
+                                <h1 class="section work-para head">Creative Minds Graphic Design Studio California - Senior Art Director</h1>
+                                <p class="section work-para">Generating and Developing idea to present to the client</p>
+
+                            </div>
+                        </div>
+                        <div class="d-flex flex-row justify-content-around">
+                            <p class="section">2022-2023</p>
+                            <div class="mr-2">
+                                <h1 class="section work-para head">Mega Giant Publishing and Studio - Junior Art Director</h1>
+                                <p class="section work-para mr-1">Working on designs to produce an effecient advertising campaign</p>
+                            </div>
+                        </div>
+                        <div class="d-flex flex-row justify-content-around">
+                            <p class="section">2020-2021</p>
+                            <div class="mr-5">
+                                <h1 class="section work-para head">Big Ideas Inc - Assistant Art Director</h1>
+                                <p class="section work-para">Commissioning specialists, such as, to work on projects</p>
+
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+        <div class="skill-section m-2">
+            <div class="container">
+                <div class="row">
+                    <div class="col-2 d-flex flex-column justify-content-center">
+                        <i class="fa-regular fa-file-circle-check icons"></i>
+                        <p class="icon-name ml-2">SKILLS & AWARDS</p>
+                    </div>
+                    <div class="col-5 skill1">
+                        <div class="skill-name d-flex flex-row justify-content-between">
+                            <p class="section mt-2">UI/UX</p>
+                            <div class="dots d-flex flex-row mr-5">
+                                <i class="fa-solid fa-circle fa-2xs mt-2 p-1"></i>
+                                <i class="fa-solid fa-circle fa-2xs mt-2 p-1"></i>
+                                <i class="fa-solid fa-circle fa-2xs mt-2 p-1"></i>
+                            </div>
+                        </div>
+                        <div class="skill-name d-flex flex-row justify-content-between">
+                            <p class="section">Growth Marketing</p>
+                            <div class="dots d-flex flex-row mr-1">
+                                <i class="fa-solid fa-circle fa-2xs mt-1 p-1"></i>
+                                <i class="fa-solid fa-circle fa-2xs mt-1 p-1"></i>
+                                <i class="fa-solid fa-circle fa-2xs mt-1 p-1"></i>
+                                <i class="fa-solid fa-circle fa-2xs mt-1 p-1"></i>
+                                <i class="fa-solid fa-circle fa-2xs mt-1 p-1"></i>
+                            </div>
+                        </div>
+                        <div class="skill-name d-flex flex-row justify-content-between">
+                            <p class="section mt-2">Typography</p>
+                            <div class="dots d-flex flex-row mr-5">
+                                <i class="fa-solid fa-circle fa-2xs mt-2 p-1"></i>
+                                <i class="fa-solid fa-circle fa-2xs mt-2 p-1"></i>
+
+                            </div>
+                        </div>
+                        <div class="skill-name d-flex flex-row justify-content-between">
+                            <p class="section">Video Production</p>
+                            <div class="dots d-flex flex-row mr-1">
+                                <i class="fa-solid fa-circle fa-2xs mt-1 p-1"></i>
+                                <i class="fa-solid fa-circle fa-2xs mt-1 p-1"></i>
+                                <i class="fa-solid fa-circle fa-2xs mt-1 p-1"></i>
+                                <i class="fa-solid fa-circle fa-2xs mt-1 p-1"></i>
+                                <i class="fa-solid fa-circle fa-2xs mt-1 p-1"></i>
+                            </div>
+                        </div>
+                        <div class="skill-name d-flex flex-row justify-content-between">
+                            <p class="section">Print Design</p>
+                            <div class="dots d-flex flex-row mr-5">
+                                <i class="fa-solid fa-circle fa-2xs mt-1 p-1"></i>
+                                <i class="fa-solid fa-circle fa-2xs mt-1 p-1"></i>
+                                <i class="fa-solid fa-circle fa-2xs mt-1 p-1"></i>
+
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="col-5 skill2">
+                        <div class="award d-flex flex-row justify-content-around mr-4">
+                            <p class="section">2019</p>
+                            <div>
+                                <h1 class="section head">Suiton Design Awards</h1>
+                                <p class="section">10 Graphic Designer</p>
+                            </div>
+                        </div>
+                        <div class="award d-flex flex-row justify-content-around">
+                            <p class="section">2019</p>
+                            <div>
+                                <h1 class="section head">Graphic London Award</h1>
+                                <p class="section">Winning Entry: Poster Design</p>
+                            </div>
+                        </div>
+                        <div class="award d-flex flex-row justify-content-around">
+                            <p class="section">2019</p>
+                            <div>
+                                <h1 class="section head">LA Creatives Award</h1>
+                                <p class="section">Winning Entry: Ad Campaign</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="interest-section m-2">
+            <div class="container">
+                <div class="row">
+                    <div class="col-2 d-flex flex-column justify-content-center">
+                        <i class="fa-regular fa-lightbulb icons"></i>
+                        <p class="icon-name ml-2">INTERESTS</p>
+                    </div>
+                    <div class="col-10 d-flex flex-row justify-content-around">
+                        <div class="interest d-flex flex-column">
+                            <div class="border-icon">
+                                <i class="fa-sharp fa-solid fa-desktop i-icon"></i>
+                            </div>
+                            <p class="icon-name ml-3">Internet</p>
+                        </div>
+                        <div class="interest d-flex flex-column">
+                            <div class="border-icon">
+                                <i class="fa-regular fa-pencil i-icon"></i>
+                            </div>
+                            <p class="icon-name ml-2">Sketching</p>
+                        </div>
+                        <div class="interest d-flex flex-column">
+                            <div class="border-icon">
+                                <i class="fa-regular fa-laptop i-icon"></i>
+                            </div>
+                            <p class="icon-name ml-3">Movies</p>
+                        </div>
+                        <div class="interest d-flex flex-column">
+                            <div class="border-icon">
+                                <i class="fa-regular fa-microphone-lines i-icon"></i>
+                            </div>
+                            <p class="icon-name ml-3">Music</p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="education-section m-2">
+            <div class="container">
+                <div class="row">
+                    <div class="col-2 d-flex flex-column justify-content-center">
+                        <i class="fa-regular fa-file-pen icons"></i>
+                        <p class="icon-name">EDUCATION</p>
+                    </div>
+                    <div class="col-10 education1">
+                        <div class="d-flex flex-row justify-content-around">
+                            <p class="section">2016-2020</p>
+                            <div>
+                                <h1 class="section head">Alabama College of Design and Technology . Cum Laude</h1>
+                                <p class="section">Bachelor of Fine Arts Major in Adverstising</p>
+
+                            </div>
+                        </div>
+                        <div class="d-flex flex-row justify-content-around">
+                            <p class="section">2013-2016</p>
+                            <div>
+                                <h1 class="section head mr-4">Helena All Girls Senior High School . Valedictorian</h1>
+                                <p class="section">President of Art and Design Club</p>
+
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
